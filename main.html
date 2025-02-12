@@ -1,16 +1,102 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
 
+        .imageContainer {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .imageContainer img {
+            max-width: 80%; /* Adjust as needed */
+            height: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd; /* Optional border */
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        td img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+
+        .column-width-200 {
+            width: 200px;
+        }
+
+        .column-width-600 {
+            width: 600px;
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <div class="imageContainer">
+        <img src="https://pplx-res.cloudinary.com/image/upload/v1739337579/user_uploads/THTsSonBHUIlNeC/Screenshot-2025-02-12-104933.jpg" alt="Architectural Design">
+    </div>
+
+    <table>
+        <tr>
+            <th class="column-width-200">Image</th>
+            <th class="column-width-600">Text Content</th>
+            <th class="column-width-200">Image</th>
+        </tr>
+        <tr>
+            <td class="column-width-200"><img src="image1.jpg" alt="Image 1"></td>
+            <td class="column-width-600">
+                Unit #5 - Floor Plans
+                <ol>
+                    <li>Kitchen</li>
+                    <li>Bathroom</li>
+                    <li>Using "Slabs"</li>
+                    <li>Georgian Home</li>
+                    <li>Sketching Assignment #5</li>
+                </ol>
+            </td>
+            <td class="column-width-200"><img src="image2.jpg" alt="Image 2"></td>
+        </tr>
+        <tr>
+            <td class="column-width-200"><img src="image3.jpg" alt="Image 3"></td>
+            <td class="column-width-600">
+                Objective
+                <p>Discuss factors that are important in the design of bedrooms. Plan the size and location of closets for a typical residence. Plan a furniture arrangement for a room. Implement important design considerations for bathrooms. Plan a bathroom that follows solid design principles. Plan the service area of a home by applying good design principles. Design a functional kitchen to meet a family's needs Select kitchen appliances that are appropriate for a design. Plan an efficient clothes care center. Describe appropriate dimensions for garage space. Identify the rooms and areas that comprise the living area Apply design principles to planning a living room Integrate the furniture in a living room plan Analyze a dining room using good design principles. Design a functional entry and foyer.</p>
+            </td>
+            <td class="column-width-200"><img src="image4.jpg" alt="Image 4"></td>
+        </tr>
+        <tr>
+             <td class="column-width-200"><img src="image5.jpg" alt="Image 5"></td>
+            <td class="column-width-600">
+             <p>HousePlans.com The largest source for quality affordable ready-made house plans. A great place to surf for space planning ideas. <a href="#">learn more</a></p>
+             <p>Green Floor FreeGreen.com offers both sponsored and non-sponsored floor plans. Their goal is to provide consumers with free solutions to their green architectural needs.  <a href="#">learn more</a></p>
+            </td>
+             <td class="column-width-200"><img src="image6.jpg" alt="Image 6"></td>
+        </tr>
+    </table>
 
 </body>
-
 </html>
