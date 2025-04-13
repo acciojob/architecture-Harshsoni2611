@@ -1,1 +1,59 @@
-/*  your css code here. If applicable */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #cbd5cb;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+h2 {
+  margin-left: 10px;
+}
+
+.main-image {
+  width: 100%;
+  border: 1px solid #999;
+  margin-bottom: 20px;
+}
+
+.content-box {
+  background-color: #d3dbcf;
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border: 1px solid #999;
+}
+
+.box {
+  width: 30%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.middle {
+  width: 40%;
+  text-align: left;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #333;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
